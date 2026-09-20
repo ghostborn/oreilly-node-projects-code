@@ -1,6 +1,6 @@
 import { writeFileSync } from "fs";
 
-const content: string = "Test content!";
+const content: string = "Test content999!";
 
 try {
   writeFileSync("./test.txt", content);
